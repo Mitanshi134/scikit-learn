@@ -12,7 +12,7 @@ speed at which they need to be processed are challenging for traditional
 approaches. In these cases scikit-learn has a number of options you can
 consider to make your system scale.
 
-Scaling with instances using out-of-core learning and practice
+Scaling with instances using out-of-core learning
 --------------------------------------------------
 
 Out-of-core (or "external memory") learning is a technique used to learn from
