@@ -55,7 +55,6 @@ class ConfusionMatrixDisplay:
 
     Examples
     --------
-    >>> import matplotlib.pyplot as plt
     >>> from sklearn.datasets import make_classification
     >>> from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
     >>> from sklearn.model_selection import train_test_split
@@ -72,7 +71,6 @@ class ConfusionMatrixDisplay:
     ...                               display_labels=clf.classes_)
     >>> disp.plot()
     <...>
-    >>> plt.show()
     """
 
     def __init__(self, confusion_matrix, *, display_labels=None):
